@@ -17,7 +17,7 @@ export class ClassifierService {
         private readonly auditTrailService: AuditTrailService,
     ) { }
 
-    public async classify(blobPath: string, modelId: string, containerName: string, useAsTrainingData: boolean = false) {
+    public async classify(blobPath: string, modelId: string, containerName: string, useAsTrainingData: boolean = false, sessionId: string | null = null) {
 
         const startTime = new Date();
 
@@ -69,7 +69,7 @@ export class ClassifierService {
 
         const drawBoundingBoxAnnotationsResult = await this.pdfLibraryService.drawBoundingBoxAnnotations(blobPath, analyzeResult.documents, analyzeResult.pages, 'classifier');
 
-        const sessionId = uuidv4();
+        if (!sessionId) sessionId = uuidv4();
 
         const endTime = new Date();
 
@@ -81,10 +81,11 @@ export class ClassifierService {
             drawBoundingBoxAnnotationsResult.savedPath,
             '',
             '',
+            '',
             (endTime.getTime() - startTime.getTime()) / 1000,
         ));
 
-        return { analyzeResult: { documents: analyzeResult.documents, splitPdfResult, drawBoundingBoxAnnotationsResult } };
+        return { analyzeResult: { documents: analyzeResult.documents, splitPdfResult, drawBoundingBoxAnnotationsResult, sessionId } };
 
     }
 

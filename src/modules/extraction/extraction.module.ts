@@ -9,5 +9,6 @@ import { ExtractionService } from "./extraction.service";
   imports: [AzureStorageModule, PdfLibraryModule, AuditTrailModule],
   controllers: [ExtractionController],
   providers: [ExtractionService],
+  exports: [ExtractionService],
 })
 export class ExtractionModule {}  

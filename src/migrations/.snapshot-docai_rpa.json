@@ -107,6 +107,16 @@
           "length": null,
           "mappedType": "json"
         },
+        "verification_result": {
+          "name": "verification_result",
+          "type": "json",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "json"
+        },
         "processed_in_seconds": {
           "name": "processed_in_seconds",
           "type": "int",

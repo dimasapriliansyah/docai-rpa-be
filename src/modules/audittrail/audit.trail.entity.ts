@@ -39,6 +39,9 @@ export class AuditTrail extends BaseEntity {
     @Property({type: 'json'})
     extractionResult: any;
 
+    // Verification result
+    @Property({type: 'json'})
+    verificationResult: any;
 
     @Property()
     processedInSeconds: number;
@@ -51,6 +54,7 @@ export class AuditTrail extends BaseEntity {
         annotatedClassifierDocumentBlobFilePath: string,
         annotatedExtractorDocumentBlobFilePath: string,
         extractionResult: any,
+        verificationResult: any,
         processedInSeconds: number,
     ) {
         super();
@@ -61,6 +65,7 @@ export class AuditTrail extends BaseEntity {
         this.annotatedClassifierDocumentBlobFilePath = annotatedClassifierDocumentBlobFilePath;
         this.annotatedExtractorDocumentBlobFilePath = annotatedExtractorDocumentBlobFilePath;
         this.extractionResult = extractionResult;
+        this.verificationResult = verificationResult;
         this.processedInSeconds = processedInSeconds;
     }
 

@@ -17,7 +17,7 @@ export class ExtractionService {
         private readonly auditTrailService: AuditTrailService,
     ) { }
 
-    public async extraction(blobPath: string, modelId: string, containerName: string, useAsTrainingData: boolean = false) {
+    public async extraction(blobPath: string, modelId: string, containerName: string, useAsTrainingData: boolean = false, sessionId: string | null = null) {
 
         const startTime = new Date();
 
@@ -97,7 +97,7 @@ export class ExtractionService {
             'extractor'
         );
 
-        const sessionId = uuidv4();
+        if (!sessionId) sessionId = uuidv4();
 
         const endTime = new Date();
 
@@ -109,10 +109,11 @@ export class ExtractionService {
             '',
             drawBoundingBoxAnnotationsResult.savedPath,
             filteredExtractedFields,
+            '',
             (endTime.getTime() - startTime.getTime()) / 1000,
         ));
 
-        return { analyzeResult: { documents: filteredExtractedFields, drawBoundingBoxAnnotationsResult } };
+        return { analyzeResult: { documents: filteredExtractedFields, drawBoundingBoxAnnotationsResult, sessionId } };
 
     }
 
