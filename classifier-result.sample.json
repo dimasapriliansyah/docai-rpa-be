@@ -1,0 +1,1598 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2025-08-06T14:15:33Z",
+	"lastUpdatedDateTime": "2025-08-06T14:15:33Z",
+	"analyzeResult": {
+		"apiVersion": "2024-11-30",
+		"modelId": "classification-docai",
+		"stringIndexType": "utf16CodeUnit",
+		"content": "",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0.30584630370140076,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 2,
+				"angle": 0.49109068512916565,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 3,
+				"angle": 0.31830549240112305,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 4,
+				"angle": 0.37979570031166077,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 5,
+				"angle": 0.30803850293159485,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 6,
+				"angle": 0.44761109352111816,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 7,
+				"angle": -89.57450103759766,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 8,
+				"angle": -89.7958984375,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 9,
+				"angle": 0.3465428054332733,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 10,
+				"angle": 0.33118578791618347,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 11,
+				"angle": 0.3058454990386963,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 12,
+				"angle": 0.3292824923992157,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 13,
+				"angle": 0.1779348999261856,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 14,
+				"angle": 0.17362140119075775,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 15,
+				"angle": 0.6410437226295471,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 16,
+				"angle": 0.6598095297813416,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 17,
+				"angle": 0.5894420146942139,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 18,
+				"angle": 0.5044187903404236,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 19,
+				"angle": 0.8044276237487793,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 20,
+				"angle": 0.6771522760391235,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 21,
+				"angle": 0.499488890171051,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 22,
+				"angle": 0.6058226227760315,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 23,
+				"angle": 0.8232663869857788,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 24,
+				"angle": 0.3405916094779968,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 25,
+				"angle": 0.24407030642032623,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 26,
+				"angle": 0.28196489810943604,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 27,
+				"angle": 0.24485230445861816,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 28,
+				"angle": 0.23961849510669708,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 29,
+				"angle": 0.39064499735832214,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 30,
+				"angle": 0.3720436096191406,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 31,
+				"angle": -89.69200134277344,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 32,
+				"angle": -89.50679779052734,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 33,
+				"angle": -89.83100128173828,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 34,
+				"angle": -89.70549774169922,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 35,
+				"angle": 0.42598310112953186,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 36,
+				"angle": 0,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 37,
+				"angle": -0.0284000001847744,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 38,
+				"angle": 0,
+				"width": 11.6806,
+				"height": 16.5417,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 39,
+				"angle": 0,
+				"width": 11.6806,
+				"height": 16.5417,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 40,
+				"angle": 0.45876380801200867,
+				"width": 13.3333,
+				"height": 17.7778,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 41,
+				"angle": 0,
+				"width": 11.6806,
+				"height": 16.5417,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 42,
+				"angle": 0,
+				"width": 8.2639,
+				"height": 11.6806,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 43,
+				"angle": 0.04658189043402672,
+				"width": 10.6667,
+				"height": 8,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 44,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 45,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 46,
+				"angle": 0.35809388756752014,
+				"width": 31.1806,
+				"height": 24.0833,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 47,
+				"angle": 0,
+				"width": 31.1806,
+				"height": 24.0833,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 48,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 49,
+				"angle": 0.14691099524497986,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 50,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 51,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 52,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 53,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 54,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 55,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 56,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 57,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 58,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 59,
+				"angle": 0,
+				"width": 11,
+				"height": 8.5,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 60,
+				"angle": 0,
+				"width": 11.6806,
+				"height": 16.5417,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 61,
+				"angle": 0,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 62,
+				"angle": 0,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			},
+			{
+				"pageNumber": 63,
+				"angle": 0,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [],
+				"lines": [],
+				"spans": []
+			}
+		],
+		"documents": [
+			{
+				"docType": "faktur_pajak",
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 2,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.279,
+				"spans": []
+			},
+			{
+				"docType": "faktur_pajak",
+				"boundingRegions": [
+					{
+						"pageNumber": 3,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 4,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.123,
+				"spans": []
+			},
+			{
+				"docType": "faktur_pajak",
+				"boundingRegions": [
+					{
+						"pageNumber": 5,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 6,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.17,
+				"spans": []
+			},
+			{
+				"docType": "bast",
+				"boundingRegions": [
+					{
+						"pageNumber": 7,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 8,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.019,
+				"spans": []
+			},
+			{
+				"docType": "surat_pesanan",
+				"boundingRegions": [
+					{
+						"pageNumber": 9,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 10,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 11,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 12,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 13,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 14,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 15,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 16,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 17,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 18,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 19,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 20,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 21,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 22,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 23,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.098,
+				"spans": []
+			},
+			{
+				"docType": "faktur_pajak",
+				"boundingRegions": [
+					{
+						"pageNumber": 24,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.626,
+				"spans": []
+			},
+			{
+				"docType": "tagihan_invoice",
+				"boundingRegions": [
+					{
+						"pageNumber": 25,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 26,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 27,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.486,
+				"spans": []
+			},
+			{
+				"docType": "kuitansi",
+				"boundingRegions": [
+					{
+						"pageNumber": 28,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 29,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 30,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.945,
+				"spans": []
+			},
+			{
+				"docType": "tagihan_invoice",
+				"boundingRegions": [
+					{
+						"pageNumber": 31,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.348,
+				"spans": []
+			},
+			{
+				"docType": "faktur_pajak",
+				"boundingRegions": [
+					{
+						"pageNumber": 32,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.011,
+				"spans": []
+			},
+			{
+				"docType": "bast",
+				"boundingRegions": [
+					{
+						"pageNumber": 33,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 34,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.105,
+				"spans": []
+			},
+			{
+				"docType": "tagihan_invoice",
+				"boundingRegions": [
+					{
+						"pageNumber": 35,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					}
+				],
+				"confidence": 0.266,
+				"spans": []
+			},
+			{
+				"docType": "kuitansi",
+				"boundingRegions": [
+					{
+						"pageNumber": 36,
+						"polygon": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					}
+				],
+				"confidence": 0.221,
+				"spans": []
+			},
+			{
+				"docType": "kuitansi",
+				"boundingRegions": [
+					{
+						"pageNumber": 37,
+						"polygon": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					}
+				],
+				"confidence": 0.197,
+				"spans": []
+			},
+			{
+				"docType": "bast",
+				"boundingRegions": [
+					{
+						"pageNumber": 38,
+						"polygon": [
+							0,
+							0,
+							11.6806,
+							0,
+							11.6806,
+							16.5417,
+							0,
+							16.5417
+						]
+					},
+					{
+						"pageNumber": 39,
+						"polygon": [
+							0,
+							0,
+							11.6806,
+							0,
+							11.6806,
+							16.5417,
+							0,
+							16.5417
+						]
+					},
+					{
+						"pageNumber": 40,
+						"polygon": [
+							0,
+							0,
+							13.3333,
+							0,
+							13.3333,
+							17.7778,
+							0,
+							17.7778
+						]
+					}
+				],
+				"confidence": 0.003,
+				"spans": []
+			},
+			{
+				"docType": "kuitansi",
+				"boundingRegions": [
+					{
+						"pageNumber": 41,
+						"polygon": [
+							0,
+							0,
+							11.6806,
+							0,
+							11.6806,
+							16.5417,
+							0,
+							16.5417
+						]
+					}
+				],
+				"confidence": 0.528,
+				"spans": []
+			},
+			{
+				"docType": "surat_pesanan",
+				"boundingRegions": [
+					{
+						"pageNumber": 42,
+						"polygon": [
+							0,
+							0,
+							8.2639,
+							0,
+							8.2639,
+							11.6806,
+							0,
+							11.6806
+						]
+					},
+					{
+						"pageNumber": 43,
+						"polygon": [
+							0,
+							0,
+							10.6667,
+							0,
+							10.6667,
+							8,
+							0,
+							8
+						]
+					},
+					{
+						"pageNumber": 44,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 45,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 46,
+						"polygon": [
+							0,
+							0,
+							31.1806,
+							0,
+							31.1806,
+							24.0833,
+							0,
+							24.0833
+						]
+					},
+					{
+						"pageNumber": 47,
+						"polygon": [
+							0,
+							0,
+							31.1806,
+							0,
+							31.1806,
+							24.0833,
+							0,
+							24.0833
+						]
+					}
+				],
+				"confidence": 0.676,
+				"spans": []
+			},
+			{
+				"docType": "surat_pesanan",
+				"boundingRegions": [
+					{
+						"pageNumber": 48,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 49,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 50,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 51,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 52,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 53,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 54,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 55,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 56,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 57,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					}
+				],
+				"confidence": 0.552,
+				"spans": []
+			},
+			{
+				"docType": "bast",
+				"boundingRegions": [
+					{
+						"pageNumber": 58,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 59,
+						"polygon": [
+							0,
+							0,
+							11,
+							0,
+							11,
+							8.5,
+							0,
+							8.5
+						]
+					},
+					{
+						"pageNumber": 60,
+						"polygon": [
+							0,
+							0,
+							11.6806,
+							0,
+							11.6806,
+							16.5417,
+							0,
+							16.5417
+						]
+					},
+					{
+						"pageNumber": 61,
+						"polygon": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					},
+					{
+						"pageNumber": 62,
+						"polygon": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					},
+					{
+						"pageNumber": 63,
+						"polygon": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					}
+				],
+				"confidence": 0.837,
+				"spans": []
+			}
+		],
+		"contentFormat": "text"
+	}
+}

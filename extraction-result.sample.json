@@ -1,0 +1,55 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2025-08-05T17:27:32Z",
+	"lastUpdatedDateTime": "2025-08-05T17:27:32Z",
+	"analyzeResult": {
+		"apiVersion": "2024-11-30",
+		"modelId": "bast_extraction_v001",
+		"stringIndexType": "utf16CodeUnit",
+		"documents": [
+			{
+				"docType": "bast_extraction_v001",
+				"fields": {
+					"nomor_dokumen": {
+						"type": "string",
+						"valueString": "K.TEL.5770/HK.810/OPS-10000000/2020\nK.TEL.040/HK.820/OPS-10000000/2021",
+						"content": "K.TEL.5770/HK.810/OPS-10000000/2020\nK.TEL.040/HK.820/OPS-10000000/2021",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									3.3458,
+									1.5104,
+									5.6768,
+									1.5103,
+									5.6768,
+									2.0043,
+									3.3458,
+									2.0043
+								]
+							}
+						],
+						"confidence": 0.263,
+						"spans": [
+							{
+								"offset": 191,
+								"length": 35
+							},
+							{
+								"offset": 262,
+								"length": 34
+							}
+						]
+					}
+				},
+				"confidence": 0.026,
+				"spans": [
+					{
+						"offset": 0,
+						"length": 91850
+					}
+				]
+			}
+		]
+	}
+}
