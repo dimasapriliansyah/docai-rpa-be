@@ -32,6 +32,7 @@ export class VerificationService {
             confidence: number;
             savedPath?: string;
             extractionResult?: any;
+            annotatedPath?: string;
             error?: string;
         }> = [];
 
@@ -95,6 +96,7 @@ export class VerificationService {
                         confidence: splitPdf.confidence,
                         savedPath: splitPdf.savedPath,
                         extractionResult: extractionResult,
+                        annotatedPath: extractionResult?.analyzeResult?.drawBoundingBoxAnnotationsResult?.savedPath,
                         sessionId: extractionResult?.analyzeResult?.sessionId,
                     };
                 } catch (error) {
@@ -104,6 +106,7 @@ export class VerificationService {
                         pageNumbers: splitPdf.pageNumbers,
                         confidence: splitPdf.confidence,
                         savedPath: splitPdf.savedPath,
+                        annotatedPath: undefined,
                         error: error instanceof Error ? error.message : 'Unknown error',
                         sessionId: sessionId,
                     };
@@ -129,6 +132,12 @@ export class VerificationService {
 
         const endTime = new Date();
 
+        // Collect annotated extraction document paths
+        const annotatedExtractionPaths = extractionResults
+            .filter(result => result.annotatedPath)
+            .map(result => result.annotatedPath)
+            .join(',');
+
         await this.auditTrailService.createAuditTrail(new AuditTrail(
             sessionId,
             DocumentModule.VERIFICATION,
@@ -136,7 +145,7 @@ export class VerificationService {
             '',
             '',
             '',
-            '',
+            annotatedExtractionPaths,
             verificationResult,
             (endTime.getTime() - startTime.getTime()) / 1000
         ));

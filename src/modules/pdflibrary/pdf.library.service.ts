@@ -263,8 +263,8 @@ export class PdfLibraryService {
                 });
                 
                 // Center text in the square
-                const centeredTextX = textX 
-                const centeredTextY = textY
+                const centeredTextX = textX + (squareSize - textWidth) / 2;
+                const centeredTextY = textY - (squareSize - fontSize) / 2;
                 
                 // Draw text
                 page.drawText(text, {

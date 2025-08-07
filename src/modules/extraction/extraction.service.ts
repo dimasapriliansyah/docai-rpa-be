@@ -17,7 +17,14 @@ export class ExtractionService {
         private readonly auditTrailService: AuditTrailService,
     ) { }
 
-    public async extraction(blobPath: string, modelId: string, containerName: string, useAsTrainingData: boolean = false, sessionId: string | null = null) {
+    public async extraction(
+        blobPath: string,
+        modelId: string,
+        containerName: string,
+        useAsTrainingData: boolean = false,
+        sessionId: string | null = null,
+        isSplitPdf: boolean = false
+    ) {
 
         const startTime = new Date();
 
