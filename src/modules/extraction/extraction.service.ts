@@ -100,7 +100,6 @@ export class ExtractionService {
         const drawBoundingBoxAnnotationsResult = await this.pdfLibraryService.drawExtractionAnnotations(
             blobPath,
             analyzeResult.documents,
-            analyzeResult.pages,
             'extractor'
         );
 
