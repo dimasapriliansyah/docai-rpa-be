@@ -117,6 +117,7 @@ export class ExtractionService {
             filteredExtractedFields,
             '',
             (endTime.getTime() - startTime.getTime()) / 1000,
+            analyzeResult.documents,
         ));
 
         return { analyzeResult: { documents: filteredExtractedFields, drawBoundingBoxAnnotationsResult, sessionId } };

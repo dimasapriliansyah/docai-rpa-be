@@ -126,6 +126,16 @@
           "nullable": false,
           "length": null,
           "mappedType": "integer"
+        },
+        "analyze_document_result": {
+          "name": "analyze_document_result",
+          "type": "json",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": false,
+          "length": null,
+          "mappedType": "json"
         }
       },
       "name": "audit_trail",

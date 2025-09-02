@@ -83,6 +83,7 @@ export class ClassifierService {
             '',
             '',
             (endTime.getTime() - startTime.getTime()) / 1000,
+            analyzeResult.documents,
         ));
 
         return { analyzeResult: { documents: analyzeResult.documents, splitPdfResult, drawBoundingBoxAnnotationsResult, sessionId } };

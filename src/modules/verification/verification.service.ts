@@ -147,7 +147,8 @@ export class VerificationService {
             '',
             annotatedExtractionPaths,
             verificationResult,
-            (endTime.getTime() - startTime.getTime()) / 1000
+            (endTime.getTime() - startTime.getTime()) / 1000,
+            extractionValue,
         ));
 
         return {

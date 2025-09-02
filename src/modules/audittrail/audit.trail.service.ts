@@ -19,7 +19,7 @@ export class AuditTrailService {
     }
 
     async getAuditTrailAll() {
-        const result = await this.auditTrailRepository.findAll();
+        const result = await this.auditTrailRepository.findAll({ orderBy: { createdAt: 'DESC' } });
 
         return result;
     }
