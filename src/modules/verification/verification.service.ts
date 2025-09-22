@@ -175,7 +175,7 @@ export class VerificationService {
         }
 
         const rulesString = rules.map((rule: any, index) => {
-            return `${index + 1}. Value from field '${rule.dokAcuanParameter}' from docType '${rule.dokAcuanJenis}' must be ${rule.ruleValidasiTipe === RuleValidasiTipe.SIMILARITY ? 'similar' : rule.ruleValidasiTipe} with the value from field  '${rule.dokPembandingParameter}' from docType '${rule.dokPembandingJenis}'.\n`;
+            return `${index + 1}. Value from field '${rule.dokAcuanParameter}' from docType '${rule.dokAcuanJenis}' must be ${rule.ruleValidasiTipe === RuleValidasiTipe.SIMILARITY ? 'similar' : rule.ruleValidasiTipe} with the value from field '${rule.dokPembandingParameter}' from docType '${rule.dokPembandingJenis}'.\n`;
         }).join('\n');
 
         const rulesPrompt = `
@@ -195,7 +195,7 @@ export class VerificationService {
                 {
                     role: "system",
                     content: `
-                                You are an AI assistant tasks for document verification. You will be given the document payload with the document type and their respective extracted data. You will be given set of rules to verify the document value of the document type against one or more other value of the others document type. Pay attention to the rules carefully. You will need to verify the document based on the rules and return the verification result for each rules. Verification result value can be 'success' if the value is according to the rules, otherwise 'failed'.
+                                You are an AI assistant tasks for document verification. You will be given the document payload with the document type and their respective extracted data. You will be given set of rules to verify the document value of the document type against one or more other value of the others document type. Pay attention to the rules carefully. You will need to verify the document based on the rules and return the verification result for each rule. Verification result value can be 'success' if the value is meet the condition of the rule, otherwise 'failed'.
                                 The return must be in JSON format with the following structure for each rules verification:
                                 [
                                  {
