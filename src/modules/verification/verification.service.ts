@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { AzureOpenAI } from "openai";
 import { AuditTrail, DocumentModule } from "../audittrail/audit.trail.entity";
 import { AuditTrailService } from "../audittrail/audit.trail.service";
+import { RulesService } from "../rules/rules.service";
 
 @Injectable()
 export class VerificationService {
@@ -12,12 +13,13 @@ export class VerificationService {
         private readonly classifierService: ClassifierService,
         private readonly extractionService: ExtractionService,
         private readonly auditTrailService: AuditTrailService,
+        private readonly rulesService: RulesService,
     ) { }
 
-    public async analyze(body: { blobPath: string, containerName: string, classifierModelId: string, rules: string[] }) {
+    public async analyze(body: { blobPath: string, containerName: string, classifierModelId: string, rules?: any[], rulesTemplateId?: string }) {
         const startTime = new Date();
 
-        const { blobPath, containerName, classifierModelId, rules } = body;
+        const { blobPath, containerName, classifierModelId, rules, rulesTemplateId } = body;
         const sessionId = uuidv4();
 
         // Document Classification
@@ -128,7 +130,7 @@ export class VerificationService {
         });
 
         // Document Verification
-        const verificationResult = await this.verify(extractionValue, rules, sessionId);
+        const verificationResult = await this.verify(extractionValue ?? [], rules ?? [], rulesTemplateId ?? '', sessionId);
 
         const endTime = new Date();
 
@@ -159,21 +161,32 @@ export class VerificationService {
         };
     }
 
-    public async verify(extractionValue: any[], rules: string[], sessionId: string) {
+    public async verify(extractionValue: any[], rules: any[], rulesTemplateId: string, sessionId: string) {
         const endpoint = process.env["AZURE_OPENAI_ENDPOINT"]
         const apiKey = process.env["AZURE_OPENAI_API_KEY"]
         const apiVersion = "2025-01-01-preview";
         const deployment = "infomediadocaiopenai"; // This must match your deployment name
 
-        const client = new AzureOpenAI({ endpoint, apiKey, deployment, apiVersion,  });
+        const client = new AzureOpenAI({ endpoint, apiKey, deployment, apiVersion, });
+
+        if (rulesTemplateId !== '') {
+            rules = await this.rulesService.getRules(rulesTemplateId);
+        }
+
+        const rulesString = rules.map((rule: any, index) => {
+            return `${index + 1}. Value of ${rule.dokAcuanParameter} from document type ${rule.dokAcuanJenis} must be compared with the value of ${rule.dokPembandingParameter} from document type ${rule.dokPembandingJenis} and the comparison type is ${rule.ruleValidasiTipe}.`;
+        }).join('\n');
 
         const rulesPrompt = `
         Here are the document types and their respective extracted data:
         ${extractionValue.map(item => `- ${item.docType}: ${JSON.stringify(item.extractedData)}`).join('\n')}
 
         And here are the rules to verify the document value of the document type against one or more other value of the others document type:
-        ${rules.join('\n,')}
+        ${rulesString}
         `
+
+        // console.log(rulesPrompt);
+        // return { rules: rules, rulesPrompt: rulesPrompt };
 
         const result = await client.chat.completions.create({
             model: deployment,
@@ -191,6 +204,7 @@ export class VerificationService {
                                     "verificationData": [
                                         {
                                             "documentType": "The document type",
+                                            "documentField": "The document field",
                                             "documentValue": "The document value"
                                         },
                                         ... more document type and their respective extracted data used in the rules stated in the verification rule

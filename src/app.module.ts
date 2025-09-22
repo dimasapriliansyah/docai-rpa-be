@@ -6,6 +6,7 @@ import { MikroOrmModule } from "@mikro-orm/nestjs";
 import DBConfig from "./mikro-orm.config";
 import { ExtractionModule } from "./modules/extraction/extraction.module";
 import { VerificationModule } from "./modules/verification/verification.module";
+import { RulesModule } from "./modules/rules/rules.module";
 
 @Module({
     imports: [
@@ -17,6 +18,7 @@ import { VerificationModule } from "./modules/verification/verification.module";
         ClassifierModule,
         ExtractionModule,
         VerificationModule,
+        RulesModule,
     ],
 })
 export class AppModule { }
