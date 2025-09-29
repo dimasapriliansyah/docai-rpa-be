@@ -218,7 +218,7 @@ export class VerificationService {
                 },
                 { role: "user", content: rulesPrompt }
             ],
-            max_tokens: 1638,
+            max_tokens: 4000,
             temperature: 0.7,
             top_p: 0.95,
             frequency_penalty: 0,
